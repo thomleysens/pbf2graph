@@ -38,9 +38,9 @@ You can clone or download it.
     conda env create -f env.yml
     ```
   * Conda will install the required Python libraries
-  ```cmd
-  conda activate pbf2graph
-  ```
+	```cmd
+	conda activate pbf2graph
+	```
 
 ## 2. Usage
 
