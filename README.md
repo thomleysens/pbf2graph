@@ -54,7 +54,7 @@ You can clone or download it.
 	- [osmium documentation](https://osmcode.org/osmium-concepts/#indexes)
 	- [pyosmium documentation](https://docs.osmcode.org/pyosmium/latest/intro.html#handling-geometries)
 
-### 2.1 Command line to use ```pbf2gt.py```
+### 2.3 Command line to use ```pbf2gt.py```
 
 * Transform .pbf file to graph-tool .gt file (*in directory root*):
 	```cmd
