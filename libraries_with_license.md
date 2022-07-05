@@ -1,3 +1,5 @@
+# Librairies imported and used (*name, version, conda channel & url*) but not modified
+
 | name                      | version      | channel                                         | license                                | url                                                                                             |
 |:--------------------------|:-------------|:------------------------------------------------|:---------------------------------------|:------------------------------------------------------------------------------------------------|
 | dbus                      | 1.13.6       | https://conda.anaconda.org/conda-forge/linux-64 | GPL-2.0-or-later                       | https://conda.anaconda.org/conda-forge/linux-64/dbus-1.13.6-h5008d03_3.tar.bz2                  |

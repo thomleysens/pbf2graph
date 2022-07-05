@@ -12,7 +12,7 @@ You can clone or download it.
 
 ### 1.1 Clone the repo
 * Install Git for your OS
-* Go to the [front page of the repo](https://github.com/thomleysens/iso_graph).
+* Go to the [front page of the repo](https://github.com/thomleysens/pbf2graph).
 * Click on the ```Code``` button and copy the HTTPS link
 * Open a command prompt inside the directory you want to clone the repo:
   ```cmd
@@ -66,6 +66,6 @@ You can clone or download it.
 	python pbf2graph/pbf2gt.py data/nord-pas-de-calais-latest.osm.pbf data/npdc.gt
 	```
 	
-## 3. Used libraries with version & license
+## 3. Imported & used libraries with version & license
 
 > *See [Libraries with license file](libraries_with_license.md)*
