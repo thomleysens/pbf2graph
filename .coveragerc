@@ -1,0 +1,7 @@
+[report]
+omit =
+    setup.py
+    pbf2graph/__main__.py
+    pbf2graph/_version.py
+    versioneer.py
+    tests/*
