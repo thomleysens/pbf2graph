@@ -5,7 +5,7 @@
 
 > ***Transform PBF OSM file to routable directed Graph-Tool graph***
 
-> ***Repo created and maintained by Thomas LEYSENS (AME department, Gustave Eiffel University)***
+> ***Repo created and maintained by Thomas LEYSENS - thomleysens - (AME department, Gustave Eiffel University)***
 
 ## 1. Get the repo
 You can clone or download it.
