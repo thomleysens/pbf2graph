@@ -7,6 +7,8 @@
 
 > ***Repo created and maintained by Thomas LEYSENS - thomleysens - (AME department, Gustave Eiffel University)***
 
+> :warning: ***This repo is under development. Could use a lot of memory for heavy PBF file (> 200 Mo)***
+
 ## 1. Get the repo
 You can clone or download it.
 
