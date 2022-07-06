@@ -47,19 +47,19 @@ You can clone or download it.
 	conda activate pbf2graph
 	```
 
-## 2. Usage
+## 3. Usage
 
-### 2.1 Download data
+### 3.1 Download data
 
 * You may visit [Geofabrik](https://download.geofabrik.de/) to download Protocolbuffer Binary Format (PBF) OpenStreetMap (OSM) file
 
-### 2.2 Information on osmium memory parameters
+### 3.2 Information on osmium memory parameters
 
 * See:
 	- [osmium documentation](https://osmcode.org/osmium-concepts/#indexes)
 	- [pyosmium documentation](https://docs.osmcode.org/pyosmium/latest/intro.html#handling-geometries)
 
-### 2.3 Command line to use ```pbf2gt.py```
+### 3.3 Command line to use ```pbf2gt.py```
 
 * Transform .pbf file to graph-tool .gt file (*in directory root*):
 	```cmd
@@ -71,6 +71,6 @@ You can clone or download it.
 	python pbf2gt.py data/nord-pas-de-calais-latest.osm.pbf data/npdc.gt
 	```
 	
-## 3. Imported & used libraries with version & license
+## 4. Imported & used libraries with version & license
 
 > *See [Libraries with license file](libraries_with_license.md)*
