@@ -2,13 +2,15 @@
 
 [![travis](https://img.shields.io/travis/thomleysens/pbf2graph.svg)](https://travis-ci.org/thomleysens/pbf2graph)
 [![codecov](https://codecov.io/gh/thomleysens/pbf2graph/branch/master/graph/badge.svg)](https://codecov.io/gh/thomleysens/pbf2graph)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/thomleysens/pbf2graph/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fthomleysens%2Fpbf2graph%2Fblob%2Fmain%2Fpbf2gt.ipynb)
+
 
 > ***Transform PBF OSM file to routable directed Graph-Tool graph***
 
 > ***Repo created and maintained by Thomas LEYSENS - thomleysens - (AME department, Gustave Eiffel University)***
 
 > :warning: ***This repo is under development. Could use a lot of memory for heavy PBF file (> 200 Mo)***
+
+> :warning: ***Currently this repo only runs under Linux. A docker will be provided in futur commits***
 
 ## 1. Get the repo
 You can clone or download it.
@@ -38,7 +40,7 @@ You can clone or download it.
   * Open a command prompt:
     ```cmd
     conda update conda
-    conda env create -f env.yml
+    conda env create -f environment.yml
     ```
   * Conda will install the required Python libraries
 	```cmd
@@ -62,11 +64,11 @@ You can clone or download it.
 * Transform .pbf file to graph-tool .gt file (*in directory root*):
 	```cmd
 	conda activate pbf2graph
-	python pbf2graph/pbf2gt.py [Path to .pbf file] [Path to output .gt file]
+	python pbf2gt.py [Path to .pbf file] [Path to output .gt file]
 	```
 * Example:
 	```cmd
-	python pbf2graph/pbf2gt.py data/nord-pas-de-calais-latest.osm.pbf data/npdc.gt
+	python pbf2gt.py data/nord-pas-de-calais-latest.osm.pbf data/npdc.gt
 	```
 	
 ## 3. Imported & used libraries with version & license
