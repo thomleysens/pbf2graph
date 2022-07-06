@@ -9,7 +9,7 @@ import argparse
 from tqdm.auto import tqdm
 
 
-from graph.transform import PBF2Graph
+from pbf2graph.graph.transform import PBF2Graph
 
     
 if __name__ == "__main__":

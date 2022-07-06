@@ -10,8 +10,8 @@ from tqdm.auto import tqdm
 from graph_tool import *
 from geopy.distance import distance
 
-from graph.handler import GraphHandler
-from utils.utils import WAYS_TAGS
+from pbf2graph.graph.handler import GraphHandler
+from pbf2graph.utils.utils import WAYS_TAGS
 
 pd.options.mode.chained_assignment = None
 
