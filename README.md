@@ -36,16 +36,13 @@ You can clone or download it.
 ## 2. Install the environment
 * Install [Anaconda](https://docs.anaconda.com/anaconda/install/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 * Install the project environment by using the [```env.yml```](env.yml) file in this directory (*for more details, see [Anaconda documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)*):
-  * Go to the directory where the ```env.yml``` file leaves
+  * Go to the directory where the ```environment.yml``` file is
   * Open a command prompt:
     ```cmd
     conda update conda
     conda env create -f environment.yml
     ```
   * Conda will install the required Python libraries
-	```cmd
-	conda activate pbf2graph
-	```
 
 ## 3. Usage
 
