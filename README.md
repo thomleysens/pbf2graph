@@ -12,8 +12,8 @@
 
 
 :warning: ***Because ```pbf2graph``` use some Python librairies only available on Linux and MacOS, there are two ways of using this repo:*** 
-* ***[with container](#1-with-container) (for all users, Windows users have to use this method)*** 
-* ***[without container](#2-without-container) (experimented Linux|MacOS users and Linux|MacOS developpers)***
+* ***[without container](#1-without-container) (experimented Linux|MacOS users and Linux|MacOS developpers)***
+* ***[with container](#2-with-container) (for all users, Windows users have to use this method)*** 
 
 
 ## 1 Without container
@@ -72,11 +72,11 @@
 
 > *The container use the [```continuumio/miniconda3``` image](https://hub.docker.com/r/continuumio/miniconda3) as base*
 
-### 2.1 Get the DockerFile
-We provide a [DockerFile](DockerFile) to build and run a container (*Linux, Miniconda and the ```pbf2graph``` repo*):
-* Click on [DockerFile](DockerFile)
+### 2.1 Get the Dockerfile
+We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Miniconda and the ```pbf2graph``` repo*):
+* Click on [Dockerfile](Dockerfile)
 * Then click on ```Raw``` button
-* Copy/Paste the raw content to a new text file (*in a directory of your choice*) on your computer and name it ```DockerFile``` (***NO EXTENSION***)
+* Copy/Paste the raw content to a new text file (*in a directory of your choice*) on your computer and name it ```Dockerfile``` (***NO EXTENSION***)
 * In the same directory create an empty directory named ```data```
 
 ### 2.2 Install Docker or Podman
@@ -92,14 +92,14 @@ We provide a [DockerFile](DockerFile) to build and run a container (*Linux, Mini
 
 #### 2.3.1 With Docker
 
-* In the directory with the DockerFile, open a shell:
+* In the directory with the Dockerfile, open a shell:
 	```cmd
 	docker build -t pbf2graph .
 	```
 
 #### 2.3.2 With Podman
 
-* In the directory with the DockerFile, open a shell:
+* In the directory with the Dockerfile, open a shell:
 	```cmd
 	podman --storage-opt ignore_chown_errors=true build -t pbf2graph .
 	```
@@ -115,7 +115,7 @@ We provide a [DockerFile](DockerFile) to build and run a container (*Linux, Mini
 
 #### 2.4.2 With Docker
 
-* In the directory with the DockerFile, open a shell:
+* In the directory with the Dockerfile, open a shell:
 	```cmd
 	docker run -v [absolute/path/to/data/directory]:/data -it pbf2graph
 	```
@@ -123,11 +123,11 @@ We provide a [DockerFile](DockerFile) to build and run a container (*Linux, Mini
 	```cmd
 	(pbf2graph) root@9c45011mf78:/#
 	```
-* You can now use ```pbf2graph```, see [2.4.4 Command line to use ```pbf2gt.py```](#2.4.4-command-line-to-get-graph-file)
+* You can now use ```pbf2graph```, see [2.4.4 Command line to get graph file](#2.4.4-command-line-to-get-graph-file)
 
 #### 2.4.3 With Podman
 
-* In the directory with the DockerFile, open a shell:
+* In the directory with the Dockerfile, open a shell:
 	```cmd
 	podman run -v [absolute/path/to/data/directory]:/data -it pbf2graph
 	```
