@@ -123,7 +123,7 @@ We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Mini
 	```cmd
 	(pbf2graph) root@9c45011mf78:/#
 	```
-* You can now use ```pbf2graph```, see [2.4.4 Command line to get graph file](#2.4.4-command-line-to-get-graph-file)
+* You can now use ```pbf2graph```, see [2.4.4 Command line to get graph file](#244-command-line-to-get-graph-file)
 
 #### 2.4.3 With Podman
 
@@ -135,7 +135,7 @@ We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Mini
 	```cmd
 	(pbf2graph) root@9c45011mf78:/#
 	```
-* You can now use ```pbf2graph```, see [2.3.4 Command line to use ```pbf2gt.py```](#2.3.4-command-line-to-get-graph-file)
+* You can now use ```pbf2graph```, see [2.4.4 Command line to use ```pbf2gt.py```](#244-command-line-to-get-graph-file)
 	
 #### 2.4.4 Command line to get graph file
 
