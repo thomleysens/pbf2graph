@@ -70,14 +70,14 @@
 
 > *For all users, Windows users have to use this method*
 
-> *The container use the [```continuumio/miniconda3``` image](https://hub.docker.com/r/continuumio/miniconda3) as base*
+> *The container uses the [```continuumio/miniconda3``` image](https://hub.docker.com/r/continuumio/miniconda3) as base*
 
 ### 2.1 Get the Dockerfile
 We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Miniconda and the ```pbf2graph``` repo*):
 * Click on [Dockerfile](Dockerfile)
 * Then click on ```Raw``` button
 * Copy/Paste the raw content to a new text file (*in a directory of your choice*) on your computer and name it ```Dockerfile``` (***NO EXTENSION***)
-* In the same directory create an empty directory named ```data```
+* In the same directory create an empty subdirectory named ```data```
 
 ### 2.2 Install Docker or Podman
 
@@ -106,16 +106,16 @@ We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Mini
 
 ### 2.4 Run the container
 
-> *The container will run with a possibility to read/write files between a local directory and a ```data``` directory in the running container*
+> *The container will run with a possibility to read/write files between a local directory (that's why you have created a local subdirectory ```data```) and a ```data``` directory in the running container*
 
 #### 2.4.1 Download data
 
 * You may visit [Geofabrik](https://download.geofabrik.de/) to download Protocolbuffer Binary Format (PBF) OpenStreetMap (OSM) file
-* Then you can put the downloaded ```.pbf``` file to the ```data``` directory you created. 
+* Then you can put the downloaded ```.pbf``` file in the ```data``` subdirectory you created. 
 
 #### 2.4.2 With Docker
 
-* In the directory with the Dockerfile, open a shell:
+* In the directory containing the Dockerfile, open a shell:
 	```cmd
 	docker run -v [absolute/path/to/data/directory]:/data -it pbf2graph
 	```
@@ -127,7 +127,7 @@ We provide a [Dockerfile](Dockerfile) to build and run a container (*Linux, Mini
 
 #### 2.4.3 With Podman
 
-* In the directory with the Dockerfile, open a shell:
+* In the directory containing the Dockerfile, open a shell:
 	```cmd
 	podman run -v [absolute/path/to/data/directory]:/data -it pbf2graph
 	```
