@@ -12,8 +12,8 @@
 
 
 :warning: ***Because ```pbf2graph``` use some Python librairies only available on Linux and MacOS, there are two ways of using this repo:*** 
-* ***[with container](#with-container) (for all users, Windows users have to use this method)*** 
-* ***[without container](#without-container) (experimented Linux|MacOS users and Linux|MacOS developpers)***
+* ***[with container](#1-with-container) (for all users, Windows users have to use this method)*** 
+* ***[without container](#2-without-container) (experimented Linux|MacOS users and Linux|MacOS developpers)***
 
 
 ## 1 Without container
@@ -123,7 +123,7 @@ We provide a [DockerFile](DockerFile) to build and run a container (*Linux, Mini
 	```cmd
 	(pbf2graph) root@9c45011mf78:/#
 	```
-* You can now use ```pbf2graph```, see [2.3.4 Command line to use ```pbf2gt.py```](#2.3.4-command-line-to-get-graph-file)
+* You can now use ```pbf2graph```, see [2.4.4 Command line to use ```pbf2gt.py```](#2.4.4-command-line-to-get-graph-file)
 
 #### 2.4.3 With Podman
 
