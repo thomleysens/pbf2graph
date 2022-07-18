@@ -6,7 +6,5 @@ dependencies:
   - tqdm
   - graph-tool
   - geopy
-  - jupyterlab
-  - ipywidgets
   - pip:
     - osmium
